@@ -2,3 +2,5 @@
 ===================
 
 Webbteknisk introduktion.
+
+Allt material runt kursen kommer att samlas här.
