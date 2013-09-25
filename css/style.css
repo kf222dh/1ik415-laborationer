@@ -1,0 +1,91 @@
+#container
+{
+        background:url(../pics/Logo.png);
+    background-size:160px 120px;
+    background-repeat:no-repeat;
+    background-position:left top;
+    margin:auto;
+    width: 1200px; height:auto;
+    background-color: #FFBB33;
+}
+
+#header
+{
+    margin:auto;
+    width: 1200px; height:auto;
+    background-color: #33B5E5;
+}
+
+#nav
+{
+    margin:auto;
+    float:left;
+    width: 200px; height:auto;
+    background-color: #FFBB33;
+}
+
+#content
+{
+    margin:auto;
+    float:right;
+    width: 950px;
+    background-color: #FFBB33;
+}
+
+#footer
+{
+    width: 1200px; height:100px;
+    background-color: #FF4444;
+	bottom:0;
+	left:0;
+	clear:both;
+	position:static;
+}
+
+p,h1,h2,h4,h5,h6
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+h3
+{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+}
+
+#menycontainer
+{
+    float: left; margin: 1em; padding: 0;
+    border-right:1px solid black;
+}
+
+#meny
+{
+    margin: 0; padding: 0; list-style-type: none; font-size: 1em;
+}
+
+#meny a
+{
+    width: 9em; text-decoration: underline;	display: block;	padding: 0.3em 1em;	margin-bottom: 0.8em; border-left: 1px none; font-family: 'Roboto', sans-serif;
+}
+
+#meny a:link
+{
+    color: #333333; opacity:0.6; font-family: 'Roboto', sans-serif;
+}
+#meny a:visited
+{
+    color: #333333; opacity:0.3; font-family: 'Roboto', sans-serif;
+}
+#meny a:hover
+{
+    background: #FFFFFF; opacity:0.3; font-family: 'Roboto', sans-serif;
+}
+#meny a:active
+{
+    font-weight: bold; border-left: 1px solid #FFFFFF; opacity:0.8; border-right: 10px solid #000000; font-family: 'Roboto', sans-serif;
+}
+
+/*Svarta ramar
+border-right:1px solid black; border-left:1px solid black;border-top:1px solid black;border-bottom:1px solid black;*/
+
