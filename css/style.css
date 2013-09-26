@@ -1,9 +1,5 @@
 #container
 {
-        background:url(../pics/Logo.png);
-    background-size:160px 120px;
-    background-repeat:no-repeat;
-    background-position:left top;
     margin:auto;
     width: 1200px; height:auto;
     background-color: #FFBB33;
@@ -11,6 +7,10 @@
 
 #header
 {
+    background:url(../pics/Logo.png);
+    background-size:160px 120px;
+    background-repeat:no-repeat;
+    background-position:left top;
     margin:auto;
     width: 1200px; height:auto;
     background-color: #33B5E5;
@@ -42,6 +42,7 @@
 	position:static;
 }
 
+
 p,h1,h2,h4,h5,h6
 {
     font-family: 'Roboto', sans-serif;
@@ -51,6 +52,11 @@ h3
 {
     font-family: 'Roboto', sans-serif;
     text-decoration: underline;
+}
+
+body
+{
+    background-color:#ffe9bc;
 }
 
 #menycontainer
@@ -84,6 +90,12 @@ h3
 #meny a:active
 {
     font-weight: bold; border-left: 1px solid #FFFFFF; opacity:0.8; border-right: 10px solid #000000; font-family: 'Roboto', sans-serif;
+}
+
+img.floatRight
+{ 
+    float: right; 
+    margin: 4px; 
 }
 
 /*Svarta ramar
