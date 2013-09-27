@@ -35,7 +35,7 @@
 #footer
 {
     width: 1200px; height:100px;
-    background-color: #FF4444;
+    background-color: #33B5E5;
 	bottom:0;
 	left:0;
 	clear:both;
@@ -92,9 +92,15 @@ body
     font-weight: bold; border-left: 1px solid #FFFFFF; opacity:0.8; border-right: 10px solid #000000; font-family: 'Roboto', sans-serif;
 }
 
-img.floatRight
+floatRight
 { 
     float: right; 
+    margin: 4px; 
+}
+
+floatLeft
+{ 
+    float: left; 
     margin: 4px; 
 }
 
