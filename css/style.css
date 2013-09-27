@@ -12,8 +12,9 @@
     background-repeat:no-repeat;
     background-position:left top;
     margin:auto;
-    width: 1200px; height:auto;
+    width: 1040px; height:120px;
     background-color: #33B5E5;
+    padding-left:160px;
 }
 
 #nav
@@ -47,6 +48,7 @@ p,h1,h2,h4,h5,h6
 {
     font-family: 'Roboto', sans-serif;
 }
+
 
 h3
 {
@@ -87,18 +89,18 @@ body
 {
     background: #FFFFFF; opacity:0.3; font-family: 'Roboto', sans-serif;
 }
-#meny a:active
+#active
 {
     font-weight: bold; border-left: 1px solid #FFFFFF; opacity:0.8; border-right: 10px solid #000000; font-family: 'Roboto', sans-serif;
 }
 
-floatRight
+.floatRight
 { 
     float: right; 
     margin: 4px; 
 }
 
-floatLeft
+.floatLeft
 { 
     float: left; 
     margin: 4px; 
