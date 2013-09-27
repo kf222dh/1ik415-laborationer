@@ -23,6 +23,7 @@
     float:left;
     width: 200px; height:auto;
     background-color: #FFBB33;
+    position:fixed;
 }
 
 #content
@@ -43,22 +44,15 @@
 	position:static;
 }
 
-
-p,h1,h2,h4,h5,h6
-{
-    font-family: 'Roboto', sans-serif;
-}
-
-
 h3
 {
-    font-family: 'Roboto', sans-serif;
     text-decoration: underline;
 }
 
 body
 {
     background-color:#ffe9bc;
+    font-family: 'Roboto', sans-serif;
 }
 
 #menycontainer
@@ -74,24 +68,24 @@ body
 
 #meny a
 {
-    width: 9em; text-decoration: underline;	display: block;	padding: 0.3em 1em;	margin-bottom: 0.8em; border-left: 1px none; font-family: 'Roboto', sans-serif;
+    width: 9em; text-decoration: underline;	display: block;	padding: 0.3em 1em;	margin-bottom: 0.8em; border-left: 1px none;
 }
 
 #meny a:link
 {
-    color: #333333; opacity:0.6; font-family: 'Roboto', sans-serif;
+    color: #333333; opacity:0.6;
 }
 #meny a:visited
 {
-    color: #333333; opacity:0.3; font-family: 'Roboto', sans-serif;
+    color: #333333; opacity:0.3;
 }
 #meny a:hover
 {
-    background: #FFFFFF; opacity:0.3; font-family: 'Roboto', sans-serif;
+    background: #FFFFFF; opacity:0.3;
 }
 #active
 {
-    font-weight: bold; border-left: 1px solid #FFFFFF; opacity:0.8; border-right: 10px solid #000000; font-family: 'Roboto', sans-serif;
+    font-weight: bold; border-left: 1px solid #FFFFFF; opacity:0.8; border-right: 10px solid #000000;
 }
 
 .floatRight
