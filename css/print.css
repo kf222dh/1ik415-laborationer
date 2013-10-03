@@ -35,8 +35,8 @@ a:visited {
 	text-decoration: underline; 
 }
 	
-#nav a:link:after, 
-#nav a:visited:after { 
+a:link:after, 
+a:visited:after { 
 	content: " (" attr(href) ") "; 
 	font-size: 90%; 
 }
