@@ -74,3 +74,5 @@
 {"ts":1380272025272,"patch":[[{"diffs":[[0,"mg src=\""],[1,"../"],[0,"pics/blo"]],"start1":2454,"start2":2454,"length1":16,"length2":19}]],"length":6233,"saved":false}
 {"ts":1380273408874,"patch":[[{"diffs":[[0,"k href='"],[-1,"http:"],[0,"//fonts."]],"start1":108,"start2":108,"length1":21,"length2":16}]],"length":6228,"saved":false}
 {"ts":1380273725012,"patch":[[{"diffs":[[0,"  \t    \t"],[1,"<p>"],[0,"Vägg av "]],"start1":4001,"start2":4001,"length1":16,"length2":19},{"diffs":[[0,"v \"Text\""],[1,"</p>"],[0,"\r\n\t    <"]],"start1":4018,"start2":4018,"length1":16,"length2":20}]],"length":6235,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1380829443947,"patch":[[{"diffs":[[0,".css\">\r\n"],[1,"        <link href=\"../css/print.css\" rel=\"stylesheet\" type=\"text/css\" media=\"print\">\r\n"],[0,"\t</head>"]],"start1":238,"start2":238,"length1":16,"length2":103}]],"length":6322,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1380830377308,"patch":[[{"diffs":[[0,"yle.css\""],[1," media=\"all\""],[0,">\r\n     "]],"start1":235,"start2":235,"length1":16,"length2":28}]],"length":6334,"saved":false}

@@ -105,6 +105,15 @@ body
     width: 250px;
 }
 
+@media print {
+#printinfo 
+body 
+{
+	font: 12pt Georgia, "Times New Roman", Times, serif;
+	line-height: 1.3;
+}
+
+
 /*Svarta ramar
 border-right:1px solid black; border-left:1px solid black;border-top:1px solid black;border-bottom:1px solid black;*/
 
