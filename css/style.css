@@ -100,6 +100,11 @@ body
     margin: 4px; 
 }
 
+#label
+{
+    width: 250px;
+}
+
 /*Svarta ramar
 border-right:1px solid black; border-left:1px solid black;border-top:1px solid black;border-bottom:1px solid black;*/
 
