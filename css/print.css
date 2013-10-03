@@ -1,0 +1,42 @@
+#header, #nav, #footer 
+{
+    display: none;
+}
+
+body 
+{
+    background: white;
+    font-family: Georgia, "Times New Roman", serif;
+    color: #000
+}
+
+#content
+{
+    width: 100%; margin: 0; float: none;
+    background: transparent; 
+}
+
+#container
+{
+    width: 100%; margin: 0; float: none;
+}
+
+
+p 
+{
+    font-size: 12pt; 
+}
+
+a:link, 
+a:visited { 
+	color: #520; 
+	background: transparent; 
+	font-weight: bold; 
+	text-decoration: underline; 
+}
+	
+#nav a:link:after, 
+#nav a:visited:after { 
+	content: " (" attr(href) ") "; 
+	font-size: 90%; 
+}
