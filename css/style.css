@@ -68,7 +68,7 @@ body
 
 #meny a
 {
-    width: 9em; text-decoration: underline;	display: block;	padding: 0.3em 1em;	margin-bottom: 0.8em; border-left: 1px none;padding-left:24px;
+    width: 9em; text-decoration: underline;	display: block;	padding: 0.3em 1em;	margin-bottom: 0.8em; border-left: 1px none; padding-left:24px;
 }
 
 #meny a:link
