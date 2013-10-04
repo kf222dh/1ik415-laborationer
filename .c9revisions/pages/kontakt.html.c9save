@@ -50,3 +50,4 @@
 {"ts":1380828316679,"patch":[[{"diffs":[[0,"yle.css\""],[1," media=\"screen\">\n        <link href=\"print.css\" rel=\"stylesheet\" type=\"text/css\" media=\"print\""],[0,">\n\t</hea"]],"start1":224,"start2":224,"length1":16,"length2":110}]],"length":1803,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1380828373905,"patch":[[{"diffs":[[0,"k href=\""],[1,"../css/"],[0,"print.cs"]],"start1":261,"start2":261,"length1":16,"length2":23}]],"length":1810,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1380830375080,"patch":[[{"diffs":[[0,"ia=\""],[-1,"screen"],[1,"all"],[0,"\">\n "]],"start1":236,"start2":236,"length1":14,"length2":11}]],"length":1807,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1380832729889,"patch":[[{"diffs":[[0,"ef=\""],[-1,"kontakt.html"],[1,"#"],[0,"\" id"]],"start1":722,"start2":722,"length1":20,"length2":9}]],"length":1796,"saved":false}

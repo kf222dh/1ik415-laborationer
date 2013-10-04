@@ -105,13 +105,11 @@ body
     width: 250px;
 }
 
-@media print {
-#printinfo 
-body 
-{
-	font: 12pt Georgia, "Times New Roman", Times, serif;
-	line-height: 1.3;
-}
+#home{width:24px;height:24px;}
+#home{background:url('../pics/sprite.png') 0px 24px;}
+#home a:hover{background:url('../pics/sprite.png') 0px 0px;}
+
+
 
 
 /*Svarta ramar
