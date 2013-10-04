@@ -68,7 +68,7 @@ body
 
 #meny a
 {
-    width: 9em; text-decoration: underline;	display: block;	padding: 0.3em 1em;	margin-bottom: 0.8em; border-left: 1px none;
+    width: 9em; text-decoration: underline;	display: block;	padding: 0.3em 1em;	margin-bottom: 0.8em; border-left: 1px none;padding-left:24px;
 }
 
 #meny a:link
@@ -105,9 +105,54 @@ body
     width: 250px;
 }
 
-#home{width:24px;height:24px;}
-#home{background:url('../pics/sprite.png') 0px 24px;}
-#home a:hover{background:url('../pics/sprite.png') 0px 0px;}
+#home
+{
+	background-image: url(../pics/sprite.png);
+	background-repeat: no-repeat;
+	background-position: 0px -45px;
+}
+
+#home:hover
+{
+    background-position: 0px 3px;
+}
+
+#hammer
+{
+	background-image: url(../pics/sprite.png);
+	background-repeat: no-repeat;
+	background-position: 0px -141px;
+}
+
+#hammer:hover
+{
+    background-position: 0px -93px;
+}
+
+#contact
+{
+	background-image: url(../pics/sprite.png);
+	background-repeat: no-repeat;
+	background-position: 0px -237px;
+}
+
+#contact:hover
+{
+    background-position: 0px -189px;
+}
+
+#mail
+{
+	background-image: url(../pics/sprite.png);
+	background-repeat: no-repeat;
+	background-position: 0px -333px;
+}
+
+#mail:hover
+{
+    background-position: 0px -285px;
+}
+
 
 
 
