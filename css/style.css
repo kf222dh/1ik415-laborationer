@@ -109,7 +109,7 @@ body
 {
 	background-image: url(../pics/sprite.png);
 	background-repeat: no-repeat;
-	background-position: 0px -45px;
+	background-position: 0 -45px;
 }
 
 #home:hover
@@ -121,36 +121,36 @@ body
 {
 	background-image: url(../pics/sprite.png);
 	background-repeat: no-repeat;
-	background-position: 0px -141px;
+	background-position: 0 -141px;
 }
 
 #hammer:hover
 {
-    background-position: 0px -93px;
+    background-position: 0 -93px;
 }
 
 #contact
 {
 	background-image: url(../pics/sprite.png);
 	background-repeat: no-repeat;
-	background-position: 0px -237px;
+	background-position: 0 -237px;
 }
 
 #contact:hover
 {
-    background-position: 0px -189px;
+    background-position: 0 -189px;
 }
 
 #mail
 {
 	background-image: url(../pics/sprite.png);
 	background-repeat: no-repeat;
-	background-position: 0px -333px;
+	background-position: 0 -333px;
 }
 
 #mail:hover
 {
-    background-position: 0px -285px;
+    background-position: 0 -285px;
 }
 
 
