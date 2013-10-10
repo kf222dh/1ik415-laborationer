@@ -167,6 +167,158 @@ img {
 	width: 100%;
 	height: auto;
 }
+
+#container
+{
+    margin:auto;
+    width: 480px; height:auto;
+    background-color: #FFBB33;
+}
+
+#header
+{
+    background:url(../pics/Logo.png);
+    background-size:160px 120px;
+    background-repeat:no-repeat;
+    background-position:left top;
+    margin:auto;
+    width: 320px; height:120px;
+    background-color: #33B5E5;
+    padding-left:160px;
+}
+
+#nav
+{
+    margin:auto;
+    width: 200px; height:auto;
+    background-color: #FFBB33;
+}
+
+#content
+{
+    margin:auto;
+    width: 480px;
+    background-color: #FFBB33;
+}
+
+#footer
+{
+    width: 480px; height:100px;
+    background-color: #33B5E5;
+	bottom:0;
+	left:0;
+	clear:both;
+	text-align:center;
+}
+
+h3
+{
+    text-decoration: underline;
+}
+
+body
+{
+    background-color:#ffe9bc;
+    font-family: 'Roboto', sans-serif;
+}
+
+#menycontainer
+{
+    float: left; margin: 1em; padding: 0;
+    border-right:1px solid black;
+}
+
+#meny
+{
+    margin: 0; padding: 0; list-style-type: none; font-size: 1em;
+}
+
+#meny a
+{
+    width: 9em; text-decoration: underline;	display: block;	padding: 0.3em 1em;	margin-bottom: 0.8em; border-left: 1px none; padding-left:24px;
+}
+
+#meny a:link
+{
+    color: #333333; opacity:0.6;
+}
+#meny a:visited
+{
+    color: #333333; opacity:0.3;
+}
+#meny a:hover
+{
+    background: #FFFFFF; opacity:0.3;
+}
+#active
+{
+    font-weight: bold; border-left: 1px solid #FFFFFF; opacity:0.8; border-right: 10px solid #000000;
+}
+
+.floatRight
+{ 
+    float: right; 
+    margin: 4px; 
+}
+
+.floatLeft
+{ 
+    float: left; 
+    margin: 4px; 
+}
+
+#label
+{
+    width: 250px;
+}
+
+#home
+{
+	background-image: url(../pics/sprite.png);
+	background-repeat: no-repeat;
+	background-position: 0 -45px;
+}
+
+#home:hover
+{
+    background-position: 0px 3px;
+}
+
+#hammer
+{
+	background-image: url(../pics/sprite.png);
+	background-repeat: no-repeat;
+	background-position: 0 -141px;
+}
+
+#hammer:hover
+{
+    background-position: 0 -93px;
+}
+
+#contact
+{
+	background-image: url(../pics/sprite.png);
+	background-repeat: no-repeat;
+	background-position: 0 -237px;
+}
+
+#contact:hover
+{
+    background-position: 0 -189px;
+}
+
+#mail
+{
+	background-image: url(../pics/sprite.png);
+	background-repeat: no-repeat;
+	background-position: 0 -333px;
+}
+
+#mail:hover
+{
+    background-position: 0 -285px;
+}
  
 }
 
