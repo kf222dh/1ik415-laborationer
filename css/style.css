@@ -213,6 +213,11 @@ img,nav {
     margin: 1em; padding: 0;
     border-right:1px solid black;
 }
+
+#label
+{
+    width: auto;
+}
  
 }
 
