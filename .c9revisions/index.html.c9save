@@ -55,3 +55,4 @@
 {"ts":1380870803979,"patch":[[{"diffs":[[0,"resultat"],[1," "],[0,"<a href="]],"start1":1449,"start2":1449,"length1":16,"length2":17}]],"length":4796,"saved":false}
 {"ts":1380870814453,"patch":[[{"diffs":[[0,"CopyCat\""],[1,"."],[0,"</a></p>"]],"start1":1540,"start2":1540,"length1":16,"length2":17}]],"length":4797,"saved":false}
 {"ts":1380870837677,"patch":[[{"diffs":[[0,"ade jag "],[1,"inte "],[0,"med tvån"]],"start1":1354,"start2":1354,"length1":16,"length2":21}]],"length":4802,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1381433712842,"patch":[[{"diffs":[[0,"print\">\n"],[1,"        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n        <link rel=\"shortcut icon\" href=\"pics/favicon-ws.ico\" type=\"image/x-icon\"/>\n        <link rel=\"apple-touch-icon\" href=\"pics/apple-touch-icon-iphone-retina\"/>\n"],[0,"\t</head>"]],"start1":322,"start2":322,"length1":16,"length2":260}]],"length":5046,"saved":false}

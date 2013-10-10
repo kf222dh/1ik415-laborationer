@@ -188,6 +188,7 @@ img,nav {
     width: auto; height:auto;
     background-color: #FFBB33;
     position:relative;
+    float:none;
 }
 
 #content
@@ -195,6 +196,7 @@ img,nav {
     margin:auto;
     width: auto;
     background-color: #FFBB33;
+    float:none;
 }
 
 #footer
@@ -212,6 +214,7 @@ img,nav {
 {
     margin: 1em; padding: 0;
     border-right:1px solid black;
+    float:none;
 }
 
 #label
