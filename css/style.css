@@ -154,9 +154,22 @@ body
     background-position: 0 -285px;
 }
 
+input:focus
+{
+  box-shadow: 0 0 10px rgba(81, 203, 238, 1);
+  border: 1px solid #000;
+}
+
+textarea:focus
+{
+  box-shadow: 0 0 10px rgba(81, 203, 238, 1);
+  border: 1px solid #000;
+}
+
+
 @media only screen and (max-width : 480px) {
 
-img,nav {
+img,video {
 	max-width: 100%;
 	height: auto;
 }
@@ -172,14 +185,11 @@ img,nav {
 
 #header
 {
-    background:url(../pics/Logo.png);
-    background-size:160px 120px;
-    background-repeat:no-repeat;
-    background-position:left top;
+    background:none;
     margin:auto;
     width: auto; height:120px;
     background-color: #33B5E5;
-    padding-left:160px;
+    padding-left:0px;
 }
 
 #nav
@@ -197,6 +207,12 @@ img,nav {
     width: auto;
     background-color: #FFBB33;
     float:none;
+}
+
+#content li
+{
+    overflow-y: hidden;
+	_overflow: hidden;
 }
 
 #footer
@@ -221,7 +237,15 @@ img,nav {
 {
     width: auto;
 }
- 
+
+.table-container
+{
+	width: 100%;
+	overflow-y: auto;
+	_overflow: auto;
+	margin: 0 0 1em;
+}
+
 }
 
 
