@@ -190,6 +190,7 @@ img,video {
     width: auto; height:120px;
     background-color: #33B5E5;
     padding-left:0px;
+    	text-align:center;
 }
 
 #nav
