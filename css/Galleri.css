@@ -1,0 +1,77 @@
+body
+{
+    background-color:#ffe9bc;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul.polaroids img 
+{  
+    display:block;margin-bottom:20px;width:530px; Height:auto;             
+}
+ul.polaroids a 
+{  
+    font-size:20px;color:#000000;text-align: center; text-decoration: none; background-color:#ffffff;float:left;padding:10px; 
+}    
+ul.polaroids a  
+{  
+    list-style:none;                                                                       
+}
+ul.polaroids a:after 
+{   
+    content:attr(title);                                                                
+}
+
+ul.polaroids a   
+{   
+    -webkit-transform:rotate(-5deg);-moz-transform:rotate(-5deg);      
+}                                       
+ul.polaroids li:nth-child(even) a 
+{   
+    -webkit-transform:rotate(12deg);-moz-transform:rotate(12deg);      
+}                                        
+
+ul.polaroids li:nth-child(3n) a 
+{   
+    -webkit-transform:rotate(-8deg);-moz-transform:rotate(-8deg);position:relative;top:30px;  
+}   
+ul.polaroids li:nth-child(5n) a 
+{   
+    -webkit-transform:rotate(-12deg);-moz-transform:rotate(-12deg);position:relative;top:20px;  
+}   
+
+ul.polaroids li a:hover   
+{   
+    -webkit-transform:scale(1.25);-moz-transform:scale(1.25);position:relative;z-index:5; 
+}       
+ul.polaroids a:hover     
+{  
+    -webkit-transform:scale(1.25);-moz-transform:scale(1.25);position:relative;z-index:5; 
+} 
+
+ul.polaroids li a:focus 
+{  
+    -webkit-transform:scale(1.25);-moz-transform:scale(1.25);position:relative;z-index: 5; 
+}       
+ul.polaroids a:focus  
+{  
+    -webkit-transform:scale(1.25);-moz-transform:scale(1.25);position:relative;z-index: 5; 
+} 
+
+ul.polaroids a     
+{  
+    -webkit-transition: -webkit-transform 1s linear;-moz-transition:-moz-transform 1s linear;box-shadow:3px 15px 3px 1px rgba(3, 3, 3, 0.7); 
+} 
+
+ul.polaroids li   
+{   
+    list-style:none;
+}
+
+ul.polaroids li:nth-child(3n) a  
+{   
+    font-size:15px;color:#000000;text-align:center;      
+}  
+ul.polaroids li:nth-child(5n) a   
+{  
+    font-size:25px;color:#000000;text-align:center;font-weight:bold;     
+} 
