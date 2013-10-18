@@ -2,7 +2,7 @@ body {
     background: #ffe9bc;
 	color: #000305;
 	font-size: 14px;
-	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family: 'Roboto', sans-serif; ;
 	line-height: 1.429;
 	margin: 0;
 	padding: 0;
@@ -64,7 +64,7 @@ aside, nav, article, figure {
 }
 
 	#banner h1 {font-size: 3.571em; line-height: .6;}
-	#banner h1 a:link, #banner h1 a:visited {
+	#banner h1 {
 		color: #000305;
 		display: block;
 		font-weight: bold;
@@ -72,11 +72,7 @@ aside, nav, article, figure {
 		text-decoration: none;
 		width: 427px;
 	}
-	#banner h1 a:hover, #banner h1 a:active {
-		background: none;
-		color: #C74350;
-		text-shadow: none;
-	}
+
 	
 	#banner h1 strong {font-size: 0.36em; font-weight: normal;}
 	
@@ -230,22 +226,4 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 
 	.hentry footer {margin-bottom: 2em;}
 	.hentry footer address {display: inline;}
-	#posts-list footer address {display: block;}
 
-	#posts-list {list-style: none; margin: 0;}
-	#posts-list .hentry {padding-left: 200px; position: relative;}
-	#posts-list .hentry:hover {
-		background: #C64350;
-		color: #fff;
-	}
-	#posts-list .hentry:hover a:link, #posts-list .hentry:hover a:visited {
-		color: #F6CF74;
-		text-shadow: 1px 1px 1px #333;
-	}
-	
-	#posts-list footer {
-		left: 10px;
-		position: absolute;
-		top: 1.5em;
-		width: 190px;
-	}
